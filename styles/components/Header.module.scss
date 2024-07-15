@@ -1,0 +1,33 @@
+.main {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 70px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.banner a {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 900;
+	text-decoration: none;
+	padding: 0 20px;
+}
+
+.Nav {
+	display: flex;
+	gap: 30px;
+	a {
+		font-size: 15px;
+		font-weight: 900;
+		text-decoration: none;
+		color: #fff;
+		border-bottom: 2px solid transparent;
+		&:hover {
+			border-bottom: 2px solid white;
+		}
+	}
+}

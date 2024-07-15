@@ -1,0 +1,58 @@
+.main {
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.1);
+	align-items: center;
+	flex-direction: column;
+	margin-top: 30px;
+	min-height: 100dvh;
+	gap: 30px;
+	h1 {
+		font-size: 40px;
+		margin-top: 50px;
+	}
+}
+
+.skillBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin-bottom: 2%;
+	width: 80%;
+	height: 400px;
+	.skillBox_content {
+		margin-left: 3%;
+		width: 60%;
+		h3 {
+			font-size: 1cm;
+			margin-bottom: 15px;
+		}
+		p {
+			font-size: 0.5cm;
+			line-height: 25px;
+		}
+	}
+}
+
+@media only all and (max-width: 700px) {
+	.skillBox {
+		flex-direction: column;
+		.picture img {
+			width: 50px;
+			height: 50px;
+		}
+		.skillBox_content {
+			margin-left: 0%;
+			margin-top: 5%;
+			text-align: center;
+			width: 90%;
+			h3 {
+				font-size: 30px;
+			}
+			p {
+				font-size: 15px;
+				line-height: 20px;
+			}
+		}
+	}
+}
