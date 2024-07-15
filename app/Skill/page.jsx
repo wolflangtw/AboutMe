@@ -27,7 +27,7 @@ export default function Page() {
 			<SkillBox
 				img="coding.webp"
 				what="程式設計"
-				content="我喜歡使用程式語言來開發一些有趣的專案。我曾經開發過一些小型的專案，例如 Discord 機器人、網站、Minecraft 地圖 等等。"
+				content="我喜歡使用程式語言來開發一些有趣的專案。我曾經開發過一些小型的專案，例如 Discord 機器人、網站開發、Minecraft 地圖 等等。"
 			/>
 			<SkillBox
 				img="linux.webp"
@@ -37,7 +37,7 @@ export default function Page() {
 			<SkillBox
 				img="internet.webp"
 				what="網路"
-				content="我從小就對資訊有著濃厚的興趣，且有些微的知識，例如網路安全、網路架構、網站開發、系統維修 等等。"
+				content="我從小就對資訊網路有著濃厚的興趣，且有些微的知識，例如網路安全、網路架構 等等。"
 			/>
 		</div>
 	);
