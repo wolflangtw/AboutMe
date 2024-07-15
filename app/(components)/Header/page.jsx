@@ -7,7 +7,7 @@ const Banner = () => {
 	return (
 		<div className={styles.banner}>
 			<Link href="/">
-				<Image src="/avatar.webp" width={50} height={50} alt="avatar" />
+				<Image src="/avatar.webp" width={100} height={100} alt="avatar" />
 				<h1>Wolflangtw</h1>
 			</Link>
 		</div>
