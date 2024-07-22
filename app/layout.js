@@ -6,6 +6,8 @@ const roboto = Roboto({ weight: ["900"], subsets: ["latin"] });
 const Header = dynamic(() => import("./(components)/Header/page"));
 const Footer = dynamic(() => import("./(components)/Footer/page"));
 
+import AdSense from "./components/AdSense";
+
 import "@/styles/globals.scss";
 
 export const metadata = {
@@ -16,6 +18,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="zh_TW">
+			<head>
+				<AdSense pId="pub-7360048637415092" />
+			</head>
 			<body className={roboto.className}>
 				<Header />
 				{children}
