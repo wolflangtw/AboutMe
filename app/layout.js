@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="zh_TW">
 			<head>
-				<AdSense pId="pub-7360048637415092" />
+				<AdSense pId="ca-pub-4861038375560073" />
 			</head>
 			<body className={roboto.className}>
 				<Header />
