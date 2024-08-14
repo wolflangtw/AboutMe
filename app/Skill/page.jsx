@@ -53,7 +53,7 @@ export default function Page() {
 			<SkillBox
 				img="internet.webp"
 				what="網路"
-				content="我從小就對資訊網路有著濃厚的興趣，且有些微的知識，例如網路安全、網路架構 等等。"
+				content="我從小就對資訊網路有著濃厚的興趣，且有些微的知識，例如 網路安全、網路架構、BGP、CDN 等等。"
 			/>
 			<AdBanner
 				dataAdFormat="auto"
