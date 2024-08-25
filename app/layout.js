@@ -20,6 +20,14 @@ export default function RootLayout({ children }) {
 		<html lang="zh_TW">
 			<head>
 				<AdSense pId="ca-pub-4861038375560073" />
+				<script
+					async
+					src="https://www.googletagmanager.com/gtag/js?id=G-CJHNLJ8CMK"></script>
+				<script>
+					window.dataLayer = window.dataLayer || []; function gtag()
+					{dataLayer.push(arguments)}
+					gtag('js', new Date()); gtag('config', 'G-CJHNLJ8CMK');
+				</script>
 			</head>
 			<body className={roboto.className}>
 				<Header />
