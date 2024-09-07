@@ -4,15 +4,15 @@ import AdBanner from "../components/AdBanner";
 
 const SkillBox = ({ img, what, content }) => {
 	return (
-		<div className={styles.skillBox}>
-			<div className={styles.picture}>
-				<Image src={`/${img}`} alt={what} width={100} height={100} />
+			<div className={styles.skillBox}>
+				<div className={styles.picture}>
+					<Image src={`/${img}`} alt={what} width={100} height={100} />
+				</div>
+				<div className={styles.skillBox_content}>
+					<h3>{what}</h3>
+					<p>{content}</p>
+				</div>
 			</div>
-			<div className={styles.skillBox_content}>
-				<h3>{what}</h3>
-				<p>{content}</p>
-			</div>
-		</div>
 	);
 };
 

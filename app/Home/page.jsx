@@ -1,5 +1,6 @@
 import styles from "@/styles/Home.module.scss";
 import Image from "next/image";
+import { motion } from 'framer-motion'
 
 const myBirthday = () => {
 	const dob = new Date("2008-12-24");
