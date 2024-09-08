@@ -40,7 +40,7 @@ export default function Contact() {
 								duration: 0.5,
 							}}>
 							<h1 className="mt-4 mb-2 font-black text-2xl bg-[#444444] px-4 py-2 text-center">
-								Wolflangtw
+								wolflangtw
 							</h1>
 						</motion.div>
 					)}
