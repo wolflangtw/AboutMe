@@ -1,7 +1,10 @@
 "use client";
+import { useState } from "react";
 import { motion } from "framer-motion";
+import { FaDiscord } from "react-icons/fa";
 
 export default function Contact() {
+	const [discord, setDiscord] = useState(false);
 	return (
 		<section id="contact">
 			<div className="flex justify-center items-center flex-col min-h-dvh bg-[#4c4c4c]">
@@ -18,13 +21,29 @@ export default function Contact() {
 				<motion.div
 					initial={{ y: 10, opacity: 0 }}
 					whileInView={{ opacity: 1, y: 0 }}
-					className="font-black text-2xl bg-[#444444] mb-10 px-8 py-4 flex-col text-center"
+					className="flex justify-center items-center flex-col gap-4"
 					transition={{
 						duration: 0.5,
 						delay: 0.3,
 					}}>
-					<h1 className="text-2xl border-b-2 border-black">Discord</h1>
-					<h2 className="text-base text-gray">wolflangtw</h2>
+					<FaDiscord
+						className="text-4xl cursor-pointer"
+						onClick={() => {
+							setDiscord(!discord);
+						}}
+					/>
+					{discord && (
+						<motion.div
+							initial={{ y: 5, opacity: 0 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							transition={{
+								duration: 0.5,
+							}}>
+							<h1 className="mt-4 mb-2 font-black text-2xl bg-[#444444] px-4 py-2 text-center">
+								Wolflangtw
+							</h1>
+						</motion.div>
+					)}
 				</motion.div>
 			</div>
 		</section>
