@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--components-bg: rgba(0, 0, 0, 0.5);
+	--bg: rgba(0, 0, 0, 0.4);
+	--color: rgb(0, 0, 0);
+}
+
+body {
+	background: var(--bg);
+	color: var(--color);
+	overflow-x: hidden;
+}
