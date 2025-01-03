@@ -56,7 +56,7 @@ export default function Skills() {
 					<SkillBox
 						img="Minecraft.webp"
 						what="Minecraft"
-						content="我已經玩 Minecraft 很久了，算是老玩家了，喜歡在這裡創造一些有趣的事物，例如建築、紅石和地圖製作等。我經常與朋友一起製作遊戲，雖然有時候會把地圖搞壞或者做出一些奇怪的迴圈，但我一直努力學習如何更好地使用這些指令。"
+						content="我已經玩 Minecraft 很久了，算是老玩家了，喜歡在這裡創造一些有趣的事物，例如建築、紅石和地圖創作等。我很常與朋友一起創作地圖，也有開過數次伺服器。"
 					/>
 					<SkillBox
 						img="coding.webp"
@@ -66,12 +66,12 @@ export default function Skills() {
 					<SkillBox
 						img="linux.webp"
 						what="管理"
-						content="我對 Minecraft 伺服器管理 及 Linux (Ubuntu / Debian) 系統管理，以及對 防火牆、網路(攻擊防禦) 有一定的知識，曾經管理過一些社群，例如 Discord、Minecraft 伺服器 等等...。曾經是 DWMS-TK、STSP-Studio 擁有者 及 葡萄休憩島 代理群主，我喜歡這類工作，也會努力的去學習如何更好的管理一個社群"
+						content="我對 Minecraft 伺服器管理 及 Linux (Ubuntu / Debian) 系統管理，以及對 路由器、防火牆、網路(攻擊防禦) 等網路設備有一定的知識，曾經管理過一些社群，例如 Discord、Minecraft 伺服器 等等...。曾經是 DWMS-TK、STSP-Studio 擁有者 及 葡萄休憩島 代理群主，我喜歡這類工作，也會努力的去學習如何更好的管理一個社群。"
 					/>
 					<SkillBox
 						img="internet.webp"
 						what="網路"
-						content="我從小就對資訊網路有著濃厚的興趣，且有些微的知識，例如 網路安全、網路架構、BGP、CDN 等等。"
+						content="我從小就對資訊網路有著濃厚的興趣，且有些微的知識，例如 網路安全、網路架構、BGP、CDN 等等，我還把路由器刷成了自由度更高的 OpenWrt 軟路由系統，並且學習了許多網路知識"
 					/>
 				</div>
 			</div>

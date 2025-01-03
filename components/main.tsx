@@ -54,7 +54,7 @@ export default function Main() {
 						delay: 0.6,
 					}}>
 					<h2 className="text-lg font-black">
-						{myBirthday()}歲 / 學生 / 喜歡創作、研發各種東西
+						{myBirthday()} 歲 / 學生 / 喜歡創作、研發各種東西
 					</h2>
 				</motion.div>
 				<motion.div

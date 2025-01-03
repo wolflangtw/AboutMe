@@ -13,3 +13,13 @@ body {
 	color: var(--color);
 	overflow-x: hidden;
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+	.container {
+		@apply px-4;
+	}
+}
