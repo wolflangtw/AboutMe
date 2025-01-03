@@ -66,7 +66,7 @@ export default function Skills() {
 					<SkillBox
 						img="linux.webp"
 						what="管理"
-						content="我對 Minecraft 伺服器管理 及 Linux (Ubuntu / Debian) 系統管理，以及對 防火牆、網路(攻擊防禦) 有些微的知識。我曾經管理過一些社群，例如 Discord、Minecraft 伺服器 等等，我喜歡這類工作，也會努力的去學習如何更好的管理一個社群。"
+						content="我對 Minecraft 伺服器管理 及 Linux (Ubuntu / Debian) 系統管理，以及對 防火牆、網路(攻擊防禦) 有一定的知識，曾經管理過一些社群，例如 Discord、Minecraft 伺服器 等等...。曾經是 DWMS-TK、STSP-Studio 擁有者 及 葡萄休憩島 代理群主，我喜歡這類工作，也會努力的去學習如何更好的管理一個社群"
 					/>
 					<SkillBox
 						img="internet.webp"
